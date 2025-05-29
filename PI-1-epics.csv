@@ -1,0 +1,11 @@
+﻿Epic Title,Investment Bucket,Status,Story Points,Brief
+Event ingestion workflow (n8n → Supabase),Core Sync Intelligence,Committed,26,Set up n8n flows that funnel raw events into Supabase in under five seconds.
+Jira connector integration,Connector Expansion,Committed,20,Connect Jira via OAuth and stream issue lifecycle events into the normalized schema.
+GitHub connector integration,Connector Expansion,Committed,18,Add GitHub webhook listener to capture issues and pull requests for unified reporting.
+Slack connector integration,Connector Expansion,Committed,15,Parse Slack slash commands and channel updates to keep leadership dashboards refreshed automatically.
+Webhook builder UI (lovable.dev),Core Sync Intelligence,Committed,22,Generate a step-by-step wizard in lovable.dev that creates outbound webhooks without coding.
+Normalized event store schema (Supabase),Core Sync Intelligence,Committed,16,Design the Postgres table structure and indexes that support high-volume write throughput.
+Authentication and RBAC (Supabase rules),Enterprise Trust,Committed,14,Implement row-level policies and token verification so only authorized users see their data.
+Staging environment with health checks (Railway),Enterprise Trust,Committed,10,Provision a Railway staging environment with uptime checks and latency alerts for every deploy.
+API documentation (OpenAPI & Swagger UI),Enterprise Trust,Committed,8,Publish machine-readable OpenAPI specs and a Swagger UI instance for developers to test calls.
+Usage telemetry and logging pipeline,Enterprise Trust,Committed,12,"Capture usage metrics and error logs, then forward them to Supabase for trend analysis."
